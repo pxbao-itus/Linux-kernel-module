@@ -16,11 +16,11 @@ Mục tiêu hiểu về Linux kernel module và hệ thống quản lý file và
 - RanNum_user_test.c
 2. Cách thức gắn module vào kernel và chạy chương trình người dùng
 ( linux kernel cần được install make )
-Bước 1: make all
-Bước 2: make ínsert
-Bước 3: make test
-Bước 4: make run_user
-Bước 5: make remove ( nếu muốn gỡ module ra khỏi kernel)
+- Bước 1: make all
+- Bước 2: make insert
+- Bước 3: make test
+- Bước 4: make run_user
+- Bước 5: make remove ( nếu muốn gỡ module ra khỏi kernel)
 
 Chú thích: Các lệnh make ____ là lệnh rút ngắn của các lệnh sau được viết vào file Makefile
 - make insert: sudo insmod randNumber.ko --> Lệnh này dùng để gắn module đã tạo vào kernel
